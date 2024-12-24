@@ -1,7 +1,4 @@
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<svg version="1.1" id="Icons" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32" xml:space="preserve" width="800px" height="800px" fill="#020438" stroke="#020438">
-<g id="SVGRepo_bgCarrier" stroke-width="0"/>
-<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
-<g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:none;stroke:#020438;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st1{fill:none;stroke:#020438;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;} </style> <path class="st0" d="M4.2,27.3l0.5-1c2-3.8,3-7.9,3-12.1v0c0-4.3,3.4-8,7.9-8.2c4.6-0.1,8.4,3.4,8.4,7.8l0,4.9c0,1.4,0.8,2.6,2,3.2 l0,0"/> <path class="st0" d="M3.9,14.6C3.9,7.6,9.2,2,15.9,2s12,5.6,12,12.6V18"/> <path class="st0" d="M7.3,30l0.1-0.2c3.1-5,4.8-10.6,4.8-16.3v0c0-1.8,1.5-3.4,3.5-3.5c2.1-0.1,3.9,1.4,3.9,3.3v0 c0.4,7.7-3.9,16.6-3.9,16.6"/> <path class="st0" d="M16,14l-0.2,1.4c-0.6,5-1.9,9.9-3.8,14.6l0,0"/> </g>
-</svg>
+<svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="70" height="70" rx="35" fill="#020438"/>
+<path d="M28.925 24.25H33.5969V39.2812C33.5969 41.0312 33.2219 42.5052 32.4719 43.7031C31.7323 44.901 30.7062 45.8021 29.3937 46.4062C28.0917 47.0104 26.5917 47.3125 24.8937 47.3125C23.1958 47.3125 21.6854 47.0104 20.3625 46.4062C19.05 45.8021 18.0187 44.901 17.2687 43.7031C16.5292 42.5052 16.1594 41.0312 16.1594 39.2812V24.25H20.8469V39.2812C20.8469 40.3021 21.0083 41.1354 21.3312 41.7812C21.6542 42.4271 22.1177 42.901 22.7219 43.2031C23.3365 43.5052 24.0604 43.6562 24.8937 43.6562C25.7479 43.6562 26.4719 43.5052 27.0656 43.2031C27.6698 42.901 28.1281 42.4271 28.4406 41.7812C28.7635 41.1354 28.925 40.3021 28.925 39.2812V24.25ZM48.0281 24.25V47H43.3562V24.25H48.0281ZM55.0281 24.25V27.9219H36.4656V24.25H55.0281Z" fill="white"/>
+</svg>
