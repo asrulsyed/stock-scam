@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i);
+
+* {
+  box-sizing: border-box;
+  /* padding: 0; */
+  /* margin: 0; */
+}
+
+@font-face {
+  font-family: "Pavelt";
+  src: url("./fonts/Pavelt-JRjpM.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Pavelt";
+  src: url("./fonts/Pavelt-VG24B.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Poppins", sans-serif, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  overflow-x: hidden;
+  /*  overflow-y: auto; */
+}
+
+@tailwind base;
+
+@layer base {
+  html {
+    --color-color1: #f7901e;
+    --color-color2: #f1f3f6;
+    --color-color3: #000000;
+    --color-color4: #284184;
+    --color-color5: #1d242b;
+  }
+  body {
+    font-family: "Poppins";
+  }
+  p {
+    /* white-space: pre-line; */
+    /* color: var(--color-gray1); */
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+.toup {
+  transform: translateY(-5px);
+}
+
+@keyframes toup {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    24% {
+        transform: translateY(-10px);
+    }
+    75% {
+        transform: translateY(10px);
+    }
+}
+
+.todown {
+  transform: translateY(5px);
+}
+
+@keyframes todown {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(10px);
+    }
+    75% {
+        transform: translateY(-10px);
+    }
+}
+
+.toleft {
+  animation: toleft 3s linear infinite;
+}
+
+@keyframes toleft {
+  0%, 50%, 100% {
+    transform: rotateY(0deg);
+  }
+  25% {
+    transform: rotateY(50deg);
+  }
+  75% {
+    transform: rotateY(-50deg);
+  }
+}
