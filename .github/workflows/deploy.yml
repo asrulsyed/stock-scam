@@ -31,4 +31,6 @@ jobs:
         mkdir -p ~/.ssh
         echo "$SSH_PRIVATE_KEY" > ~/.ssh/id_rsa
         chmod 600 ~/.ssh/id_rsa
-        scp -r ./build/* root@162.240.160.133:/home/vegaventures52
+        eval "$(ssh-agent -s)"
+        ssh-add ~/.ssh/id_rsa
+        scp -P 2083 -r ./build/* root@162.240.160.133:/home/vegaventures52
